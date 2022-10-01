@@ -5,9 +5,9 @@ spring:
     hibernate:
       ddl-auto: none
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/ab3
-    username: root
-    password: mypass
+    url: jdbc:mysql://anycompany-productiondb-instance-1.csjliovylmx5.us-west-1.rds.amazonaws.com:3306/ab3
+    username: admin
+    password: GrayGraph123#
     driverClassName: com.mysql.cj.jdbc.Driver
   sql:
     init:
