@@ -16,4 +16,4 @@ server:
   tomcat:
     accesslog:
       enabled: true
-      directory:  /var/logs/application
+      directory:  /var/log/application
