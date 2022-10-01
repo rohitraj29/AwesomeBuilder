@@ -12,7 +12,8 @@ spring:
   sql:
     init:
       mode: always
-server:
+server
+  port: 82
   tomcat:
     accesslog:
       enabled: true
